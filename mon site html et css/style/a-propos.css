@@ -1,0 +1,68 @@
+.carre-contenu {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
+.carre-contenu + div {
+  text-align: center;
+}
+
+.a-propos-main {
+  margin: auto;
+}
+
+table {
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid white;
+}
+
+td {
+  padding: 80px;
+}
+
+h2 {
+  margin-bottom: 80px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .section-tarifs {
+    display: none;
+  }
+}
+section{
+  background:  #0C2029;
+}
+.propos{
+  color: #FF8902;
+}
+.services{
+  color: #FF8902;
+}
+span{
+  color: #FF8902;
+}
